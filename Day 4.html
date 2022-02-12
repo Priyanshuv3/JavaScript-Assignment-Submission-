@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Day 4</title>
+</head>
+<body>
+    <script>
+        var students=[
+            {
+                FirstName:"Priyanshu",
+                LastName:"Verma",
+                age:21,
+                place:"Vikasnagar",
+            },
+            {
+                FirstName:"Avinsh",
+                LastName:"Kumar",
+                age:21,
+                place:"Vikasnagar",
+            },
+            {
+                FirstName:"Sapna",
+                LastName:"Sarkar",
+                age:21,
+                place:"Vikasnagar",
+            },
+            {
+                FirstName:"Anuj",
+                LastName:"Chauhan",
+                age:21,
+                place:"Vikasnagar",
+            },
+            {
+                FirstName:"Rajat",
+                LastName:"chaudhary",
+                age:21,
+                place:"Vikasnagar",
+            },
+        ]
+        console.log("1. Printing 2 Properties Using A For Loop-->");
+        for(var i=0;i<students.length;i++)
+        {
+            console.log("\t",i+1,students[i].FirstName,students[i].LastName)
+        }
+        console.log("\n1. Printing 2 Properties Using A ForEach Loop-->");
+        students.forEach(
+            function(a,i)
+            {
+                console.log("\t",i+1,a.FirstName,a.LastName)
+            }
+        )
+    </script>
+</body>
+</html>
